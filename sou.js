@@ -20,9 +20,9 @@ $(document).ready(function() {
         wd = $(".wd").val();
         if (dt == "google") {
             if (wd == "" || wd == null) {
-                window.location.href = "https://google.cyfan.ga/?hl=zh";
+                window.location.href = "https://google.com/?hl=zh";
             } else {
-            	$("form").attr('action', 'https://google.cyfan.ga/search?hl=zh');
+            	$("form").attr('action', 'https://google.com/search?hl=zh');
             	$(".wd").attr("name","q");
                 $(".t").val("g");
                 $("form").submit();
