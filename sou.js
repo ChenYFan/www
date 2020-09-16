@@ -20,18 +20,18 @@ $(document).ready(function() {
         wd = $(".wd").val();
         if (dt == "google") {
             if (wd == "" || wd == null) {
-                window.location.href = "https://google.com/?hl=zh";
+                window.location.href = "https://duckduckgo.com/?q=";
             } else {
-            	$("form").attr('action', 'https://google.com/search?hl=zh');
+            	$("form").attr('action', 'https://duckduckgo.com/?q=');
             	$(".wd").attr("name","q");
                 $(".t").val("g");
                 $("form").submit();
             }
         } else {
             if (wd == "" || wd == null) {
-                window.location.href = "https://www.baidu.com/?tn=simple";
+                window.location.href = "https://www.dogedoge.com/results?q=";
             } else {
-            	$("form").attr('action', 'https://www.baidu.com/s?ie=utf-8');
+            	$("form").attr('action', 'https://www.dogedoge.com/results?q=');
             	$(".wd").attr("name","wd");
                 $(".t").val("b");
                 $("form").submit();
