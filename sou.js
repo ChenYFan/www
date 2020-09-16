@@ -32,7 +32,7 @@ $(document).ready(function() {
                 window.location.href = "https://www.dogedoge.com/results?q=";
             } else {
             	$("form").attr('action', 'https://www.dogedoge.com/results?q=');
-            	$(".wd").attr("name","wd");
+            	$(".wd").attr("name","q");
                 $(".t").val("b");
                 $("form").submit();
             }
